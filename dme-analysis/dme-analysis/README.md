@@ -53,11 +53,10 @@ dme-analysis/
 │ └── ejecutar_analisis_completo.m # Script principal
 ├── 📁 data/ # Datos de entrada
 │ └── EstudioDME.xlsx
-├── 📁 figures/ # Figuras generadas
-│ ├── evolucion_temporal.png
-│ └── anomalias_detectadas.png
-├── 📁 results/ # Resultados numéricos
-└── 📁 docs/ # Documentación adicional
+└── 📁 figures/ # Figuras generadas
+ ├── evolucion_temporal.png
+ └── anomalias_detectadas.png
+
 
 
 
@@ -68,4 +67,5 @@ dme-analysis/
 cd dme-analysis
 
 % 2. Ejecutar el análisis completo
+
 ejecutar_analisis_completo
